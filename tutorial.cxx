@@ -22,8 +22,7 @@ int main(int argc, char* argv[])
   }
 
   void* btbuff[32];
-
-  int nstack = unw_backtrace(btbuff, 32);
+  // int nstack = unw_backtrace(btbuff, 32);
 
   // convert input to double
   const double inputValue = std::stod(argv[1]);
